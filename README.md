@@ -1,15 +1,17 @@
-# Libgenbot
+# Libgenbot-UI
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fsuhan-paradkar%2FLibgenbot&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 Libgenbot is a Bot written in Python to download PDFs from libgen.
 It is a fork of PyPaperBot, and is inspired by it
-Currently in alpha, please leave feedback and report issues
+Currently in beta, please leave feedback and report issues
+This is the UI version of Libgenbot.. and is at a very preliminary stage.
 
 ## Installation
 
 Use pip to install LibgenBot
+You need to have Python-Tkinter alresdy installed for this package 
 
 ```
 pip3 install Libgenbot
@@ -29,7 +31,7 @@ First, you need to be subscribed into its-pointless repo
 
 ```
 pkg up
-pkg install wget git
+pkg install wget git python-tkinter
 wget https://its-pointless.github.io/setup-pointless-repo.sh
 chmod +x setup-pointless-repo.sh
 ./setup-pointless-repo.sh
