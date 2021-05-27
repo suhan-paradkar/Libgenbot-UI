@@ -25,7 +25,7 @@ setuptools.setup(
         'colorama>=0.4.3',
         'crossref-commons>=0.0.7',
         'future>=0.18.2',
-        'guizero'
+        'guizero',
         'HTMLParser>=0.0.2',
         'idna>=2.10,<3',
         'isort>=5.4.2',
