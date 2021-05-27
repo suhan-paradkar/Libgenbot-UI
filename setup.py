@@ -25,6 +25,7 @@ setuptools.setup(
         'colorama>=0.4.3',
         'crossref-commons>=0.0.7',
         'future>=0.18.2',
+        'guizero'
         'HTMLParser>=0.0.2',
         'idna>=2.10,<3',
         'isort>=5.4.2',
@@ -32,6 +33,7 @@ setuptools.setup(
         'mccabe>=0.6.1',
         'numpy',
         'pandas',
+        'pillow',
         'pyChainedProxy>=1.1',
         'pylint>=2.6.0',
         'pyparsing>=2.4.7',
@@ -59,6 +61,6 @@ setuptools.setup(
     'Programming Language :: Python :: 3.9',
   ],
   entry_points={
-    'console_scripts': ["LibgenUI=LibgenUI.__main__:main"],
+    'console_scripts': ["LibgenUI=LibgenUI.UI:main"],
   },
 )
