@@ -59,7 +59,6 @@ setuptools.setup(
     'Programming Language :: Python :: 3.9',
   ],
   entry_points={
-    'console_scripts': ["Libgenbot=Libgenbot.__main__:main"],
-    'console_scripts': ["Libgenbot-UI=Libgenbot-UI.UI:UI"],
+    'console_scripts': ["Libgenbot-UI=Libgenbot-UI.__main__:main"],
   },
 )
