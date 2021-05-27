@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
   name = 'Libgenbot-UI',
   packages = setuptools.find_packages(),
-  version = '1.0.0-alpha-01',
+  version = '1.0.0-alpha-02',
   license='GPL-3.0',
   description = 'Libgenbot-UI is a UI version for Libgenbot',
   long_description=long_description,
