@@ -17,7 +17,7 @@ setuptools.setup(
   download_url = 'https://github.com/suhan-paradkar/Libgenot/archive/v1.0.0-alpha.tar.gz',
   keywords = ['download-papers','google-scholar', 'libgen', 'scihub', 'scholar', 'crossref', 'papers'],
   install_requires=[
-        'Libgenbot'
+        'Libgenbot',
         'guizero',
         'pillow',
       ],
