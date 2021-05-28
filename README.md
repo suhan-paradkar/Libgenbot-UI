@@ -3,6 +3,8 @@
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
+[![PyPI version](https://badge.fury.io/py/Libgenbot-UI.svg)](https://badge.fury.io/py/Libgenbot-UI)
+
 Libgenbot is a Bot written in Python to download PDFs from libgen.
 It is a fork of PyPaperBot, and is inspired by it
 Currently in beta, please leave feedback and report issues
@@ -10,17 +12,17 @@ This is the UI version of Libgenbot.. and is at a very preliminary stage.
 
 ## Installation
 
-Use pip to install LibgenBot
+Use pip to install Libgenbot-UI
 You need to have Python-Tkinter alresdy installed for this package 
 
 ```
-pip3 install Libgenbot
+pip3 install Libgenbot-UI
 ```
 
 For builds with latest changes
 
 ```
-git clone https://github.com/suhan-paradkar/Libgenbot.git
+git clone https://github.com/suhan-paradkar/Libgenbot-UI.git
 pip3 install -r requirements.txt
 python3 setup.py install
 ```
@@ -31,7 +33,7 @@ First, you need to be subscribed into its-pointless repo
 
 ```
 pkg up
-pkg install wget git python-tkinter
+pkg install wget git python-tkinter libjpeg-turbo
 wget https://its-pointless.github.io/setup-pointless-repo.sh
 chmod +x setup-pointless-repo.sh
 ./setup-pointless-repo.sh
@@ -53,7 +55,7 @@ pip install pandas
 Now, install using pip
 
 ```
-pip install Libgenbot
+pip install Libgenbot-UI
 ```
 
 For builds with latest changes
