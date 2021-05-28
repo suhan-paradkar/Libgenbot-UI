@@ -5,6 +5,7 @@ from PIL import ImageTk,Image
 import pathlib
 import os
 import webbrowser
+from LibgenBot import __main__
 
 class UI:
 
@@ -14,11 +15,10 @@ class UI:
         self.donate_img = donate_img
         self.search_mode = "Search by DOI"
 
-        self.app = App(title="PyPaperBot v0.9.6", height=450)
-        MenuBar(self.app, toplevel=["About", "Donate :)"],
+        self.app = App(title="LibgenBot v1.0.0-alpha-02", height=600)
+        MenuBar(self.app, toplevel=["About"],
             options=[
-                [["GitHub page", lambda : webbrowser.open('https://github.com/ferru97/PyPaperBot')]],
-                [["Donate with PayPal", lambda : webbrowser.open('https://www.paypal.com/paypalme/ferru97')]]
+                [["GitHub page", lambda : webbrowser.open('https://github.com/suhan-paradkar/LibgenUI')]]
             ])
 
         Box(self.app, width="fill", align="top", border=True)
@@ -26,10 +26,8 @@ class UI:
 
         bottom_box = Box(self.app, width="fill", align="bottom")
         PushButton(bottom_box, text="DOWNLOAD", command=lambda: self.start()).bg = "#ED4723"
-        Text(bottom_box, text="Developed by ferru97", align="left", size=8)
-        PushButton(bottom_box, image=donate_img, command=lambda: webbrowser.open('https://www.paypal.com/paypalme/ferru97'), align="right")
+        Text(bottom_box, text="Developed by suhan-paradkar", align="left", size=8)
 
-        
         options_box = Box(self.app, height="fill", align="right", border=True)
         Text(options_box, text="Search type")
         self.search_mode = ButtonGroup(options_box, options=["Search by DOI", "Search by DOI's file", "Search by keywords"], command=lambda: self.changeMode(), selected="Search by DOI")
