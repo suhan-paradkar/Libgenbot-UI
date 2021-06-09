@@ -9,6 +9,8 @@ Libgenbot is a Bot written in Python to download PDFs from libgen.
 It is a fork of PyPaperBot, and is inspired by it
 Currently in beta, please leave feedback and report issues
 This is the UI version of Libgenbot.. and is at a very preliminary stage.
+Also... this project's gui is not linked with the logic...
+PRs are welcome...
 
 ## Installation
 
